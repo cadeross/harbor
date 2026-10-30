@@ -20,7 +20,7 @@ Built with SwiftUI and the macOS Liquid Glass APIs. No dependencies.
 
 ## Download
 
-Get the latest `Harbor-x.y.zip` from [Releases](https://github.com/cadeross/Harbor/releases/latest), unzip it, and drag Harbor.app into Applications. It runs on Apple silicon and Intel Macs with macOS 26 or later.
+[Download Harbor.zip](https://github.com/cadeross/Harbor/releases/latest/download/Harbor.zip) from the latest [release](https://github.com/cadeross/Harbor/releases/latest), unzip it, and drag Harbor.app into Applications. It runs on Apple silicon and Intel Macs with macOS 26 or later.
 
 Harbor isn't notarized yet, so the first time you open it macOS says it can't check it for malicious software. Click **Done**, open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to Harbor. You only need to do this once. (Or run `xattr -dr com.apple.quarantine /Applications/Harbor.app` in Terminal.)
 
