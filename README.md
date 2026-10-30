@@ -45,3 +45,7 @@ Because it inspects and stops other processes, Harbor runs outside the App Sandb
 
 - `open Harbor.app --args -HarborPreview YES` opens the panel in a standalone window over a backdrop, for screenshots. Add `-HarborAppearance light` or `dark` to force a theme. Preview mode never saves pins, so you can pass demo pins as a launch argument (`-pinnedFolders "<hex-encoded JSON>"`) without touching your real ones.
 - `swift scripts/make-icon.swift icon.png` re-renders the app icon.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
